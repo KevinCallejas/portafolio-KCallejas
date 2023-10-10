@@ -1,0 +1,193 @@
+/*Kevin Motiño
+Kevin Callejas
+José Prado
+Pedro Maradiaga
+Yanniel Mendoza
+Luis Benitez
+*/
+
+:root{
+    --fondo:#74dcef;
+    --colorNavHover: #fff8f8;
+    --colorBotonHover: #00b4d8;
+}
+html{
+    font-family: 'Roboto', Helvetica , Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 18px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin: 20px;
+    text-align: center;
+}
+
+h3{
+    margin: 20px;
+}
+
+p{
+    margin: 20px;
+    text-align: justify;
+}
+
+.navbar{
+    background-color: var(--fondo);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar a{
+    color: var(--colorLetrasNav);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem; 
+}
+
+.navbar a:hover{
+    color: var(--colorNavHover);
+}
+
+.navContenedor{
+    max-width: 195rem;
+    margin: 0 auto;
+}
+
+.navbar img{
+    width: 40px;
+    height: 40px;
+}
+
+.info-general{
+    margin: 20px;
+    text-align: center;
+}
+
+.info-general img{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 4px;
+}
+
+.acerca-nosotros{
+    background-color: var(--fondo);
+    display: inline-block;
+}
+
+.acerca-nosotros h2{
+    text-align: center;
+}
+
+.acerca-nosotros p{
+    float: left;
+    width: 50%;
+}
+
+.contenedor{
+    background-color: var(--colorNavHover);
+    margin: 10px;
+    border-radius: 5px;
+    width: 25%;
+    float: right;
+    margin-right: 15%;
+}
+
+.contenedor p{
+    float: none;
+}
+
+.mision-vision{
+    margin: 20px;
+}
+
+.contacto{
+    margin-bottom: 15px;
+    font-weight: bold;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.contacto h2{
+    text-align: left;
+}
+
+.contacto label{
+    display: block;
+}
+
+.contacto input[type="text"], .form-group input [type="email"]{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+
+#boton{
+    background-color: var(--fondo);
+    margin-top: 20px;
+}
+
+#boton:hover{
+    background-color: var(--colorBotonHover);
+}
+
+.footer-main{
+    background-color: var(--fondo);
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-main a{
+    text-decoration: none;
+}
+
+.footer-main a:hover{
+    text-decoration: underline;
+}
+
+.Servicio img{
+    float: left;
+    margin-right: 50px;
+}
+
+.Servicio p{
+    font-size: medium;
+}
+
+.Servicio span{
+    font-weight: bold;
+}
+
+.Service{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display :inline-block;
+    width: 1300px;
+    height: 5%;
+    background-color: var(--fondo);
+}
+
+.Service2{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display :inline-block;
+    width: 1300px;
+    height: 5%;
+}
